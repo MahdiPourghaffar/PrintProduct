@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Src/">
+    <Project Path="PrintProduct.Api/PrintProduct.Api.csproj" />
+    <Project Path="PrintProduct.Application/PrintProduct.Application.csproj" />
+    <Project Path="PrintProduct.Domain/PrintProduct.Domain.csproj" />
+    <Project Path="PrintProduct.Infrastructure/PrintProduct.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Tests/" />
+</Solution>
