@@ -6,11 +6,12 @@ namespace PrintProduct.Domain.Entities;
 public class ProductPrintKind : IEntity<int>
 {
     public int Id { get; private set; }
+    public int ProductId { get; set; }
     public int PrintKindId { get; private set; }
     public string? Name { get; private set; }
     public bool Required { get; private set; }
     public bool IsJeld { get; private set; }
-
+    public Product Product { get; set; }
     private ProductPrintKind() { } // EF
 
     internal ProductPrintKind(
